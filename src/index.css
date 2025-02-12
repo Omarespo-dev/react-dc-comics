@@ -1,100 +1,194 @@
-*{
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 
-body{
+body {
   font-family: "Open Sans", serif;
 }
 
+/* ////////////////////////////////////////////////// */
+
 /* Header set */
 
-header{
+header {
   display: flex;
   justify-content: center;
   /* background-color: antiquewhite; */
-  
+
 }
 
-.container-flex{
+.container-flex {
   display: flex;
   justify-content: space-between;
   width: 70%;
   align-items: center;
   padding-top: 15px;
   /* background-color: aqua; */
+  padding-bottom: 10px;
 }
 
 /* img set */
-.img img{
+.img img {
   height: 80px;
 }
 
 /* link set */
-.link a{
+.link a {
   text-decoration: none;
   font-size: 15px;
-  color:  black;
+  color: black;
   padding: 10px;
 }
 
+/* ////////////////////////////////////////////////// */
 
 /* MAIN SET */
-.container-main{
+.container-main {
   display: flex;
   justify-content: center;
   background-color: #201c1c;
-  height: 100px;
+  height: 150px;
 }
 
 /* container black */
-.container-flex2{
+.container-flex2 {
   display: flex;
   width: 70%;
   align-items: center;
 
 }
 
-.container-flex2 h3{
+.container-flex2 h3 {
   color: white;
 }
 
 
 /* container blu */
-.container-icon{
+.container-icon {
   display: flex;
   justify-content: center;
   background-color: #0884fc;
   height: 150px;
-
-}
-
-.img-content{
-  display: flex;
-  width: 65%;
-  align-items: center;
+  z-index: 20;
+  position: relative;
   
 }
 
+.img-content {
+  display: flex;
+  width: 65%;
+  align-items: center;
+
+}
+
 /* settaggio section */
-.set-card{
+.set-card {
   display: flex;
   align-items: center;
   width: 25%;
 }
 
-.set-card img{
+.set-card img {
   height: 50px;
 }
 
-#set-svg{
+#set-svg {
   height: 40px;
 }
 
 /* setto span */
-.set-card span{
+.set-card span {
   color: white;
   font-size: 10px;
   margin-left: 10px;
+}
+
+/* ////////////////////////////////////////////////// */
+
+/* FOOTER 1 */
+
+.container-footer {
+  display: flex;
+  justify-content: center;
+  background-image: url("/img/footer-bg.jpg");
+  height: 450px;
+  align-items: center;
+}
+/* img set */
+.container-footer img {
+    position: absolute;
+    left: 50%;
+}
+.container-flex3 {
+  display: flex;
+  width: 70%;
+  /* align-items: center; */
+  /* justify-content: space-between; */
+}
+
+.container-flex3 ul h4 {
+  color: white;
+  font-size: 20px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+.container-flex3 ul {
+  list-style: none;
+  color: gray;
+  font-size: 15px;
+}
+
+.container-flex3 ul li{
+  margin-top: 7px;
+}
+
+
+/* UL DC */
+.set-ul{
+  padding-left: 40px;
+}
+
+
+
+
+/* FOOTER 2 */
+.container-footer2 {
+  display: flex;
+  justify-content: center;
+  background-color: #383434;
+  height: 100px;
+  position: relative;
+  z-index: 20;
+}
+
+.container-flex4 {
+  display: flex;
+  width: 70%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container-flex4 button{
+  border: #0884fc solid 2px;
+  background-color: #383434;
+  color: white;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.container-flex4 section{
+  display: flex;
+  align-items: center;
+}
+
+.container-flex4 section h4{
+  color: #0884fc;
+}
+
+
+.container-flex4 section img{
+  padding: 12px;
+  height: 50px;
 }
