@@ -23,4 +23,6 @@
     -Ogni applicazione React è composta da componenti riutilizzabili-------(App.jsx) è il componente radice dell'applicazione
     -ESPORTAZIONE export default function Header()
     -IMPORTAZIONE import Header from "./components/Header";
-    
+
+5) Ho creato i tre file JSX con header , main e footer
+    - E li importo sull app principale
