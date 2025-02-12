@@ -7,3 +7,20 @@
 
 -Bonus:
 -Creare un componente aggiuntivo per gestire la fascia azzurra con le icone.
+
+
+<!-- PROCEDIMENTO -->
+1) Vite e un tool che ci permette di semplificare alcuni passaggi e rendere uno sviluppo piu rapido, come ad esempio crea gia le cartelle del progetto dove inizialliza gia con npm init
+    -Trasforma i file jsx e scss gia compatibili con il browser
+    -Non bisogna mettere gli script per lo start e il watch
+    -E permette di avviare con (npm run dev) il server locale
+
+2) Installiamo VITE con {npm create vite@latest} => Dove a sua volta ci fara una serie di domande come il framework che vogliamo utilizzare e js. Infine installiamo tutte le altre dipendeze con npm install e avviamo il server.
+
+3) Aggiungo la cartella imgs dentro i file statici---- Aggiungo la cartella components dove all interno andranno l Header, Main, Footer 
+
+4) React e un framework di Js dove ci facilita il lavoro, permettendoci di fare in un unico file JSX sia la parte di html e Js 
+    -Ogni applicazione React è composta da componenti riutilizzabili-------(App.jsx) è il componente radice dell'applicazione
+    -ESPORTAZIONE export default function Header()
+    -IMPORTAZIONE import Header from "./components/Header";
+    
