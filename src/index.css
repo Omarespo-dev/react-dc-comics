@@ -40,6 +40,12 @@ header {
   font-size: 15px;
   color: black;
   padding: 10px;
+  padding-bottom: 37px;
+}
+
+.link a:hover{
+  border-bottom: #0884fc 5px solid;
+  color: #0884fc;
 }
 
 /* ////////////////////////////////////////////////// */
