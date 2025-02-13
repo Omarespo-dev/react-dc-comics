@@ -37,3 +37,18 @@
     -Inoltre possiamo utilizzare questi operatori anche per aggiungere o rimuovere una classe active di un elemento CSS
 
 3) Lavorare con gli Array in JSX 
+
+
+
+<!-- ESERCIZIO -->
+Descrizione:
+Continuate a lavorare nella stessa repo di ieri, creando un array di link nell’header e sfruttandolo in maniera dinamica.
+    -Una volta fatto, provate a centralizzare i dati in App.jsx e a passarli come prop.
+    
+------Bonus----------------
+    -scorporate la parte dell’header con il menù in un componente a parte (ora i dati del menù dovranno fare un passaggio in più…);
+    -Creare un array di dati anche per i link nel footer e cercare di dinamicizzare anche quelli all’interno dei componenti della vostra app.
+
+
+1) Ho fatto solo la prova facendo un logo in un altro file jsx e importando nell header (L ho fatto in caso mi servisse lo stesso logo piu volte)
+2) 
