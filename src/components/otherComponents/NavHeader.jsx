@@ -9,23 +9,20 @@ const linkHeader = [
     { id: 7, text: "VIDEOS", url: "#", current: false },
     { id: 8, text: "FANS", url: "#", current: true },
     { id: 9, text: "NEWS", url: "#", current: false },
-    { id: 10, text: "SHOP", url: "#", current: true}
+    { id: 10, text: "SHOP", url: "#", current: true }
 ];
 
 // Esporto la funzione linkHeader
-export default function navLink() {
+export default function NavHeader() {
     return (<>
+
+        {/* Ora per mettere tutto il contenuto dell array di oggetti si usa il map*/}
         <div className="link">
-            <a href="#"><span>CHARACTERS</span></a>
-            <a href="#"><span>COMICS</span></a>
-            <a href="#"><span>MOVIES</span></a>
-            <a href="#"><span>TV</span></a>
-            <a href="#"><span>GAMES</span></a>
-            <a href="#"><span>COLLECTIBLES</span></a>
-            <a href="#"><span>VIDEOS</span></a>
-            <a href="#"><span>FANS</span></a>
-            <a href="#"><span>NEWS</span></a>
-            <a href="#"><span>SHOP</span></a>
+            {linkHeader.map((link) => (
+                <a href={link.url}><span>{link.text}</span></a>
+            ))}
         </div>
+
+
     </>)
 }

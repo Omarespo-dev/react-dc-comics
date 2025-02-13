@@ -3,7 +3,7 @@
 import LogoHeader from "./otherComponents/logoHeader"
 
 // Importo array di oggetti nav link
-import navLink from "./otherComponents/navLink"
+import NavHeader from "./otherComponents/navHeader"
 
 // Esporto gia la funzione Header
 export default function Header (){
@@ -13,6 +13,8 @@ export default function Header (){
             
             <LogoHeader />
 
+                 
+            <NavHeader />
             
         </div>
         

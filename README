@@ -51,4 +51,5 @@ Continuate a lavorare nella stessa repo di ieri, creando un array di link nellâ€
 
 
 1) Ho fatto solo la prova facendo un logo in un altro file jsx e importando nell header (L ho fatto in caso mi servisse lo stesso logo piu volte)
-2) 
+
+2) Ho fatto un altro file jsx per rendere il tutto piu ordinato con l array dei link poi la vado a importare sull header
