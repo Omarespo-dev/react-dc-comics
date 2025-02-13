@@ -19,7 +19,7 @@ export default function NavHeader() {
         {/* Ora per mettere tutto il contenuto dell array di oggetti si usa il map*/}
         <div className="link">
             {linkHeader.map((link) => (
-                <a href={link.url}><span>{link.text}</span></a>
+                <a key={link.id} href={link.url}><span>{link.text}</span></a>
             ))}
         </div>
 
