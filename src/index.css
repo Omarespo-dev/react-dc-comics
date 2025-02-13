@@ -44,6 +44,10 @@ header {
   padding-bottom: 37px;
 }
 
+.link a.active{
+  border-bottom: #0884fc 5px solid;
+  color: #0884fc;
+}
 .link a:hover{
   border-bottom: #0884fc 5px solid;
   color: #0884fc;

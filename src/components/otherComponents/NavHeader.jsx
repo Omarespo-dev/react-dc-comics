@@ -7,7 +7,7 @@ export default function NavHeader(props) {
         {/* Ora per mettere tutto il contenuto dell array di oggetti si usa il map*/}
         <div className="link">
             {props.linkSecond.map((link) => (
-                <a key={link.id} href={link.url}><span>{link.text}</span></a>
+                <a key={link.id} href={link.url} className={link.current ? 'active' : ''}><span>{link.text}</span></a>
             ))}
         </div>
 
