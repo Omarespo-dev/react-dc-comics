@@ -6,7 +6,7 @@ import LogoHeader from "./otherComponents/logoHeader"
 import NavHeader from "./otherComponents/navHeader"
 
 // Esporto gia la funzione Header
-export default function Header (){
+export default function Header (props){
     return (
     <header>
         <div className="container-flex">
@@ -14,7 +14,7 @@ export default function Header (){
             <LogoHeader />
 
                  
-            <NavHeader />
+            <NavHeader link={props.link}/>
             
         </div>
         
