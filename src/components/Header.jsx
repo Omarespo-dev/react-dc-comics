@@ -14,7 +14,7 @@ export default function Header (props){
             <LogoHeader />
 
                  
-            <NavHeader link={props.link}/>
+            <NavHeader linkSecond={props.link}/>
             
         </div>
         
