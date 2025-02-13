@@ -55,3 +55,5 @@ Continuate a lavorare nella stessa repo di ieri, creando un array di link nellâ€
 2) Ho fatto un altro file jsx per rendere il tutto piu ordinato con l array dei link poi la vado a importare sull header
 
 3) Poi per fare il props drilling vado a prendere l array di oggetti da NavHeader e do un parametro (props) e do props.link etc..---- poi prendo quello array da navheader e la metto in App ora do ad header una proprieta link={nome ARRAY} cosi va a prendere l array---- poi do <NavHeader linkSecond={props.link}/>==== poi vado in navheader e gli dico props.linkSecond
+
+4) Condizione per <a> className={link.current ? 'active' : ''} gli dico se current e vero mi metti active altrimenti niente
