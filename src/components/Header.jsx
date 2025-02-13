@@ -1,11 +1,15 @@
+
+// Importo il logo header
+import LogoHeader from "./otherComponents/logoHeader"
+
 // Esporto gia la funzione Header
+
 export default function Header (){
     return (
     <header>
         <div className="container-flex">
-            <div className="img">
-                <img src="/img/dc-logo.png" alt="" />
-            </div>
+            
+            <LogoHeader />
             
             <div className="link">
                 <a href="#"><span>CHARACTERS</span></a>
@@ -22,5 +26,6 @@ export default function Header (){
 
         </div>
         
-    </header>)
+    </header>
+    )
 }

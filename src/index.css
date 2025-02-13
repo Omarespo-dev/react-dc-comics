@@ -8,6 +8,7 @@ body {
   font-family: "Open Sans", serif;
 }
 
+
 /* ////////////////////////////////////////////////// */
 
 /* Header set */
@@ -119,7 +120,9 @@ header {
   display: flex;
   justify-content: center;
   background-image: url("/img/footer-bg.jpg");
-  height: 450px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
   align-items: center;
 }
 /* img set */

@@ -26,3 +26,14 @@
 
 5) Ho creato i tre file JSX con header , main e footer
     - E li importo sull app principale
+
+
+<!-- ///////////////////////  SECONDA PARTE CON I PROPS   //////////////////////////// -->
+
+1) Le Props serveno per passare un dato da un componente genitore a un componente figlio
+    -Le props vengono trasmesse tramite gli attributi HTML 
+
+2) Le Conditional Rendering in JSX sarebbero le condizioni (if..else che usavamo su js ), ma su jsx si usa lo short-circuiting con (and e or) --- Operatori ternari
+    -Inoltre possiamo utilizzare questi operatori anche per aggiungere o rimuovere una classe active di un elemento CSS
+
+3) Lavorare con gli Array in JSX 

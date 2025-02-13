@@ -1,5 +1,5 @@
 // Importo Banner
-import Banner from "./Banner/Banner"
+import Banner from "./otherComponents/Banner"
 
 // Esporto gia la funzione Main
 export default function Main() {
