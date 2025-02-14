@@ -11,11 +11,11 @@ export default function Main() {
         <main>
             <JumboTron />
 
-            <div className="current-series">
-                <h3>CURRENT SERIES</h3>
-            </div>
-
             <div className="container-main">
+                <div className="current-series">
+                    <h3>CURRENT SERIES</h3>
+                </div>
+                
                 <div className="container-flex2">
 
                     <ProductList />

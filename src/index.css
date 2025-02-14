@@ -74,7 +74,8 @@ header {
   text-decoration: none;
   top: -3%;
   position: absolute;
-  left: 14%;
+  left: 11%;
+  z-index: 10;
 }
 
 .current-series h3{

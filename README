@@ -71,3 +71,14 @@ Descrizione:
 2) Fate in modo che il componente Card riceva le props dal componente Listato, che genererà le istanze di Card, come fatto al mattino insieme.
 
 3) Una volta inseriti tutti i contenuti dinamicamente, completate il vostro layout e rifinite i dettagli col CSS.Nota: Le immagini potrebbero variare leggermente rispetto a quelle nello screenshot.
+
+<!-- PROCEDIMENTO -->
+
+----> 1 METODO
+
+1) Creo file (ProductList.jsx) e importo l array di oggetti. Faccio l export della funzione ProductList.jsx----> faccio poi il return del contenuto html preso dal main e, uso il map per ciclare l array di oggetti e crearne uno nuovo poi scrivo il contenuto all interno, prendendo gli elementi degli oggetti dall elemento iesimo ricavando img  e il contenuto.
+
+
+----> 2 METODO
+
+2) Faccio la stessa cosa di prima ma divido ancora di piu il tutto usando le props e lasciando nel file (ProductList.jsx) solo il map dell array e il contenuto importato da un altro file chiamato (ProductCard.jsx), dove all interno avremo il contenuto html che pero va a prendere le proprieta dell oggetto attraverso il paramentro delle props
