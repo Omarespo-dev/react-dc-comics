@@ -57,3 +57,17 @@ Continuate a lavorare nella stessa repo di ieri, creando un array di link nell�
 3) Poi per fare il props drilling vado a prendere l array di oggetti da NavHeader e do un parametro (props) e do props.link etc..---- poi prendo quello array da navheader e la metto in App ora do ad header una proprieta link={nome ARRAY} cosi va a prendere l array---- poi do <NavHeader linkSecond={props.link}/>==== poi vado in navheader e gli dico props.linkSecond
 
 4) Condizione per <a> className={link.current ? 'active' : ''} gli dico se current e vero mi metti active altrimenti niente
+
+
+
+<!-- ///////////////////////  TERZA PARTE CON I PROPS   //////////////////////////// -->
+
+<!-- ESERCIZIO -->
+
+Descrizione:
+
+1) Continuate a lavorare nella stessa repo di ieri e create un nuovo componente riutilizzabile per visualizzare le card dei fumetti, sfruttando l’array di oggetti in allegato.
+
+2) Fate in modo che il componente Card riceva le props dal componente Listato, che genererà le istanze di Card, come fatto al mattino insieme.
+
+3) Una volta inseriti tutti i contenuti dinamicamente, completate il vostro layout e rifinite i dettagli col CSS.Nota: Le immagini potrebbero variare leggermente rispetto a quelle nello screenshot.
