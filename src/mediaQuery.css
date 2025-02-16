@@ -1,0 +1,170 @@
+
+
+
+/* MEDIA QUERY INITIALIZED*/
+
+@media screen and (max-width: 1300px) and (min-width: 1024px) {
+
+    /* CARD SET */
+    .card-main {
+      /* background-color: rebeccapurple; */
+      width: 20%;
+      color: white;
+      /* padding-top: 30px; */
+      cursor: pointer;
+  
+    }
+  
+    .container-flex2{
+      margin-top: 30px;
+    }
+  
+    .img-content{
+      width: 80%;
+    }
+  
+    .container-footer img{
+      left: 60%;
+    }
+  }
+  
+  /* MEDIA QUERY FOR TABLET */
+  @media screen and (max-width: 1023px) and (min-width: 768px) {
+      /* CARD SET */
+    .card-main {
+      /* background-color: rebeccapurple; */
+      width: 27%;
+      color: white;
+      /* padding-top: 30px; */
+      cursor: pointer;
+  
+    }
+  
+    .container-flex2{
+      margin-top: 30px;
+    }
+  
+    .img-content{
+      width: 95%;
+    }
+  
+    .container-footer img{
+      left: 75%;
+    }
+  
+    .current-series{
+      top: -2%;
+    }
+  }
+  
+  /* MEDIA QUERY VERSO IL MOBILE */
+  @media screen and (max-width: 767px) and (min-width: 590px) {
+        /* CARD SET */
+    .card-main {
+      /* background-color: rebeccapurple; */
+      width: 30%;
+      color: white;
+      /* padding-top: 30px; */
+      cursor: pointer;
+  
+    }
+    .card-main img {
+     height: 220px;
+  
+    }
+  
+    .card-main h4{
+      font-size: 15px;
+    }
+  
+    .container-flex2{
+      margin-top: 40px;
+    }
+  
+    .img-content{
+      width: 100%;
+    }
+    .set-card img{
+      height: 40px;
+    }
+  
+    #set-svg {
+      height: 30px;
+    }
+  
+    .container-footer img{
+      left: 85%;
+    }
+  
+    .current-series{
+      top: -2%;
+    }
+  }
+  
+  /* MEDIA QUERYY */
+  @media screen and (max-width: 640px) and (min-width: 590px) {
+    .card-main {
+      /* background-color: rebeccapurple; */
+      width: 40%;
+      color: white;
+      /* padding-top: 30px; */
+      cursor: pointer;
+  
+    }
+    .card-main img {
+     height: 240px;
+  
+    }
+  
+    .current-series{
+      top: -1.5%;
+    }
+  }
+  
+  
+  
+  
+  
+  /* MEDIA QUEYY */
+  
+  @media screen and (max-width: 589px) and (min-width: 300px) {
+    .card-main {
+      /* background-color: rebeccapurple; */
+      width: 50%;
+      color: white;
+      /* padding-top: 30px; */
+      cursor: pointer;
+  
+    }
+    .card-main img {
+     height: 220px;
+  
+    }
+  
+    .card-main h4{
+      font-size: 15px;
+    }
+  
+    .container-flex2{
+      margin-top: 40px;
+    }
+  
+    .img-content{
+      width: 100%;
+    }
+    .set-card img{
+      height: 40px;
+    }
+  
+    #set-svg {
+      height: 30px;
+    }
+  
+    .container-footer img{
+      left: 85%;
+    }
+  
+    .current-series{
+      top: -2%;
+    }
+  }

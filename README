@@ -8,7 +8,7 @@
 -Bonus:
 -Creare un componente aggiuntivo per gestire la fascia azzurra con le icone.
 
-
+<!-- ///////////////////////  PRIMA PARTE CON I PROPS   //////////////////////////// -->
 <!-- PROCEDIMENTO -->
 1) Vite e un tool che ci permette di semplificare alcuni passaggi e rendere uno sviluppo piu rapido, come ad esempio crea gia le cartelle del progetto dove inizialliza gia con npm init
     -Trasforma i file jsx e scss gia compatibili con il browser
